@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>谢成矩个人主页</title>
+	<link rel="stylesheet" href="lib/jquery.fullPage.min.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	
+	<!-- 插件几步走：
+	（1）引用对应的资源（包）	
+	（2）复制这个插件所需要的默认骨架
+	（3）初始化JS（调用方法）
+	（4）配置参数 -->
+	<ul id="menu">
+		<!-- data-menuanchor 绑定active的 关联哈希值 哈希值是多少就给谁添加active这个类，锚点 必须跟锚点一一对应 点击跳转的-->
+		<!-- data-menuanchor 和 href 和 锚点必须一一对应 -->
+		<li data-menuanchor="page1" class="active firstName"><a href="#page1">首页</a></li>
+		<li data-menuanchor="page6"><a href="#page6">联系邮箱</a></li>
+		<li data-menuanchor="page5"><a href="#page5">项目经验</a></li>
+		<li data-menuanchor="page4"><a href="#page4">成长经历</a></li>
+		<li data-menuanchor="page3"><a href="#page3">专业技能</a></li>
+		<li data-menuanchor="page2"><a href="#page2">个人简介</a></li>
+	</ul>
+	<!-- 基本的骨架 -->
+	<div id="dowebok">
+		<div class='section pageZero'>
+			<div class="word">Hello World</div>
+			<div class="arrow">
+				<a href="#page2"><img src="images/arrowDown.png" alt=""></a>
+			</div>
+		</div>
+	    <div class="section pageOne">
+			<div class='pics'>
+				<a href="https://github.com/xiechengju" target="_blank"><img src="images/github.png" alt=""></a>
+				<a href="https://xiechengju.github.io/" target="_blank"><img src="images/blog.png" alt=""></a>
+				<img src="images/me.jpg" alt="">
+				<a href=""><img src="images/web.png" alt=""></a>
+				<a href=""><img src="images/glass.png" alt=""></a>
+			</div>
+			<div class="info">
+				<ul>
+					<li>姓名&nbsp;&nbsp;谢成矩</li>
+					<li>手机&nbsp;&nbsp;15005501297</li>
+					<li>邮箱&nbsp;&nbsp;xeichengju@foxmail.com</li>
+					<li>github&nbsp;&nbsp;<a href="https://github.com/xiechengju" target="_blank">请戳这里</a></li>
+					<li>博客&nbsp;&nbsp;<a href="https://xiechengju.github.io/" target="_blank">请戳这里</a></li>
+				</ul>
+			</div>
+			<div class="word">
+				<ul>
+					<li>我是一个有探索精神的技术宅</li>
+					<li>对我而言技术没有界限，有Geek精神</li>
+					<li>信守承诺，交办任务绝对不拖延</li>
+					<li>爱折腾，不怕麻烦，精力十足</a></li>
+					<li>这里有技术，也有生活</li>
+				</ul>
+			</div>
+	       
+		</div>
+	    <div class="section pageTwo">
+			<div class='pageHead'>专业技能</div>
+			<div class="skill">
+				<ul>
+					<li class="liOne">H5C3</li>
+					<li class="liThree">JavaScript</li>
+					<li class="liFour">JQuery</li>
+					<li class="liTwo">Bootstrap</li>
+					<li class="liFour">Angular</li>
+					<li class="liOne">响应式开发</li>
+					<li class="liTwo">Less</li>	
+					<li class="liOne">Git</li>					
+					<li class="liFour">Node.js</li>
+					<li class="liOne">PS/FW</li>
+					<li class="liTwo">canvas</li>
+					<li class="liThree">Ajax技术与服务器</li>	
+					<li class="liOne">微信H5开发</li>	
+					<li class="liTwo">Vue.js</li>	
+				</ul>
+			</div>
+	    </div>
+	    <div class="section pageThree">
+			<div class='pageHead'>成长经历</div>
+			<div>
+				<div  class="timebox center">
+					<ul>
+						<li>2011.09 - 2015.06</li>
+						<li>2015.06 - 2016.12</li>
+						<li>2016.12 - 2017.07</li>
+						<li>2017.08 - Now</li>
+					</ul>
+				</div>
+				<div class="timeline center"></div>
+				<div class="timepoint center">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="workbox center">
+					<ul>
+						<li>上海电力学院<br>电气工程及其自动化专业</li>
+						<li>国家电网公司</li>
+						<li>自主学习&独立开发</li>
+						<li>爱图品牌创意机构<br>微信公众号H5开发</li>	
+					</ul>
+				</div>
+					
+			</div>
+	    </div>
+	    <div class="section pageFour">
+			<div class='pageHead'>项目经验</div>
+			<div class="pics center">
+				<ul>
+					<li><img src="images/edu.png" alt=""></li>
+					<li><img src="images/shop.png" alt=""></li>
+					<li><img src="images/wjs.png" alt=""></li>
+				</ul>
+			</div>
+			<div class="content center">
+				<ul>
+					<li><h3>博学谷在线教育平台</h3><br>在线教育信息管理<br><br>
+					课程，讲师等信息的增删改查<br><br>基于Ajax的表单验证，数据返回等功能</li>
+					<li><h3>慢慢买移动端页面</h3><br>手机端web的独立开发<br><br>H5C3静态页面效果<br><br>Ajax技术，模板引擎展示数据</li>
+					<li><h3>微金所响应式开发</h3><br>静态页面独立开发<br></br>基于JQuery和Bootstrap</br><br>
+					一站式兼容PC端与移动端</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="section">
+			<h3>快把我收到碗里吧<br>xiechengju@foxmail.com</h3>
+	    </div>
+	</div>
+	<script type="text/javascript" src="lib/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
